@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+<form method = "POST">
+	<br/><br/>
+  <div class="form-group">
+		<h4><b> &emsp;	Enter the app link to google play store</b></h4>
+	<br/>
+	<div class="form-group">
+     <div class="col-sm-6">
+       <label for="firstname" class="sr-only"></label>
+       <input id="firstname" class="form-control input-group-lg reg_name" type="text" name="app-link" title="Enter link of the application" placeholder="play.google.com/applink">
+     </div>       
+     <div class="col-sm-6">
+       <label for="lastname" class="sr-only"></label>
+       <button type="submit" class="btn btn-primary">Submit</button>
+     </div>
+	</div><!--/form-group-->
+</div>
+</form>
+{% endblock %}
